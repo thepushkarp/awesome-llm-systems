@@ -46,6 +46,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [Visualizing 6D Mesh Parallelism](https://main-horse.github.io/posts/visualizing-6d/)
 - [1.5x faster MoE training with custom MXFP8 kernels](https://cursor.com/blog/kernels)
 - [Accelerate ND-Parallel](https://huggingface.co/blog/accelerate-nd-parallel)
+- [Quantization is not a compromise — it's the next paradigm - Kimi K2 training](https://x.com/ZhihuFrontier/status/1987125624599970218)
 
 ## Inference
 
@@ -71,6 +72,8 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [GPUs Go Brrr](https://hazyresearch.stanford.edu/blog/2024-05-12-tk)
 - [Look Ma, No Bubbles! Designing a Low-Latency Megakernel for Llama-1B](https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles)
 - [Inside NVIDIA GPUs: Anatomy of high performance matmul kernels](https://www.aleksagordic.com/blog/matmul)
+- [Implementing a fast Tensor Core matmul on the Ada Architecture](https://www.spatters.ca/mma-matmul)
+- [Advanced Matrix Multiplication Optimization on NVIDIA GPUs](https://salykova.github.io/sgemm-gpu)
 
 ## Misc
 

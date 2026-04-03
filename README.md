@@ -18,6 +18,7 @@ This repository aims to consolidate resources for learning about systems for LLM
 - [ELI5: FlashAttention](https://gordicaleksa.medium.com/eli5-flash-attention-5c44017022ad)
 - [Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html)
 - [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192)
+- [PyTorch and CPU-GPU Synchronizations](https://tomasruizt.github.io/posts/08_cpu_gpu_synchronization/)
 
 IMO, understanding parameter arithmetic is the key to performance optimization in LLMs.
 
@@ -31,6 +32,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 ## Architecture
 
 - [TransMLA: MLA Is All You Need](https://arxiv.org/abs/2502.07864)
+- [Beyond Standard LLMs](https://magazine.sebastianraschka.com/p/beyond-standard-llms)
 
 ## Quantization
 
@@ -52,8 +54,10 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 
 - [How continuous batching enables 23x throughput in LLM inference while reducing p50 latency](https://www.anyscale.com/blog/continuous-batching-llm-inference)
   - An introduction to batching in LLMs
+- [Continuous batching from first principles](https://huggingface.co/blog/continuous_batching)
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
 - [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)
+- [Optimizing AI Inference at Character.AI](https://blog.character.ai/optimizing-ai-inference-at-character-ai/)
 - [Throughput is all you need](https://cmeraki.github.io/throughput-is-all-you-need.html)
   - A primer on how to think about throughput in LLM systems. Talks about continuous batching, paged attention and the basics of vLLM orchestrator
 - [Flash-Decoding for long-context inference](https://pytorch.org/blog/flash-decoding/)
@@ -61,6 +65,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [Throughput is Not All You Need: Maximizing Goodput in LLM Serving using Prefill-Decode Disaggregation](https://hao-ai-lab.github.io/blogs/distserve/)
 - [One Kernel for All Your GPUs](https://hazyresearch.stanford.edu/blog/2025-09-22-pgl)
 - [Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving](https://arxiv.org/pdf/2407.00079)
+- [Inside Kaiju](https://blog.character.ai/technical/inside-kaiju-building-conversational-models-at-scale/)
 
 ## Kernels
 
@@ -72,11 +77,28 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [GPUs Go Brrr](https://hazyresearch.stanford.edu/blog/2024-05-12-tk)
 - [Look Ma, No Bubbles! Designing a Low-Latency Megakernel for Llama-1B](https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles)
 - [Inside NVIDIA GPUs: Anatomy of high performance matmul kernels](https://www.aleksagordic.com/blog/matmul)
-- [Implementing a fast Tensor Core matmul on the Ada Architecture](https://www.spatters.ca/mma-matmul)
+- [Matrix Multiplication on Blackwell: Part 1 - Introduction](https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-1-introduction)
+- [Dissecting FlashInfer - A Systems Perspective on High-Performance LLM Inference](https://ydnyshhh.github.io/posts/flash_infer/)
+- [Notes About Nvidia GPU Shared Memory Banks](https://feldmann.nyc/blog/smem-microbenchmarks#/)
+- [Chasing 6+ TB/s: an MXFP8 quantizer on Blackwell](https://blog.fal.ai/chasing-6-tb-s-an-mxfp8-quantizer-on-blackwell/#/)
+    - Notes on packing quantization scales in a format required by downstream GEMM
+- [Implementing a fast Tensor Core matmul on the Ada Architecture](https://www.spatters.ca/mma-matmul#/)
 - [Advanced Matrix Multiplication Optimization on NVIDIA GPUs](https://salykova.github.io/sgemm-gpu)
+
+## Communication
+
+- [GPU networking basics](https://www.chipstrat.com/p/gpu-networking-basics-part-1)
+- [A Beginner's Guide to Interconnects in AI Datacenters](https://substack.com/home/post/p-173009699)
+- [Demystifying NCCL: An In-depth Analysis of GPU Communication Protocols and Algorithms](https://www.alphaxiv.org/abs/2507.04786)
+
+## Lecture series
+
+- [Faster LLMs](https://faster-llms.vercel.app/)
+    - Has multiple lectures from industry leaders on topics around serving LLMs as applications and how they are different from traditional ML models and regular web services
 
 ## Misc
 
+- [Democratizing AI Compute](https://www.modular.com/democratizing-ai-compute)
 - [We reverse-engineered Flash Attention 4](https://modal.com/blog/reverse-engineer-flash-attention-4)
 
 ## Labs

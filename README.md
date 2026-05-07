@@ -48,6 +48,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [Visualizing 6D Mesh Parallelism](https://main-horse.github.io/posts/visualizing-6d/)
 - [1.5x faster MoE training with custom MXFP8 kernels](https://cursor.com/blog/kernels)
 - [Accelerate ND-Parallel](https://huggingface.co/blog/accelerate-nd-parallel)
+- [Inside FSDP with PyTorch and Ray](https://debnsuma.github.io/my-blog/posts/fsdp-ray-train/)
 
 ## Inference
 
@@ -82,6 +83,8 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [Chasing 6+ TB/s: an MXFP8 quantizer on Blackwell](https://blog.fal.ai/chasing-6-tb-s-an-mxfp8-quantizer-on-blackwell/#/)
     - Notes on packing quantization scales in a format required by downstream GEMM
 - [Implementing a fast Tensor Core matmul on the Ada Architecture](https://www.spatters.ca/mma-matmul#/)
+- [ThunderKittens](https://arxiv.org/abs/2410.20399)
+  - One of the best papers to understand the details about memory heirarchy, tiled layouts and abstractions required for Hopper chips
 
 ## Communication
 

@@ -49,6 +49,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [1.5x faster MoE training with custom MXFP8 kernels](https://cursor.com/blog/kernels)
 - [Accelerate ND-Parallel](https://huggingface.co/blog/accelerate-nd-parallel)
 - [Inside FSDP with PyTorch and Ray](https://debnsuma.github.io/my-blog/posts/fsdp-ray-train/)
+- [Quantization is not a compromise — it's the next paradigm - Kimi K2 training](https://x.com/ZhihuFrontier/status/1987125624599970218)
 
 ## Inference
 
@@ -85,6 +86,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [Implementing a fast Tensor Core matmul on the Ada Architecture](https://www.spatters.ca/mma-matmul#/)
 - [ThunderKittens](https://arxiv.org/abs/2410.20399)
   - One of the best papers to understand the details about memory heirarchy, tiled layouts and abstractions required for Hopper chips
+- [Advanced Matrix Multiplication Optimization on NVIDIA GPUs](https://salykova.github.io/sgemm-gpu)
 
 ## Communication
 

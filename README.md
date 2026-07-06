@@ -11,6 +11,8 @@ This repository aims to consolidate resources for learning about systems for LLM
 - [What Every Developer Should Know About GPU Computing](https://blog.codingconfessions.com/p/gpu-computing)
 - [GPU Glossary](https://modal.com/gpu-glossary)
   - A starting point for understanding about GPUs and terms used in GPU programming
+- [Roadmap: Understanding GPU Architecture](https://cvw.cac.cornell.edu/gpu-architecture)
+  - A virtual workshop from Cornell to understand GPU hardware design and operations
 - [Domain specific architectures for AI inference](https://fleetwood.dev/posts/domain-specific-architectures)
   - A primer on what a good GPU architecture looks like
 - [From Online Softmax to FlashAttention](https://courses.cs.washington.edu/courses/cse599m/23sp/notes/flashattn.pdf)
